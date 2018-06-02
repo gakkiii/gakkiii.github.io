@@ -1,0 +1,33 @@
+html {
+    
+    background-color: #7FCBFA;
+    font-size: 20px; /* px 意为“像素（pixels）”: 这个基础字体的尺寸现在是10像素  */
+    font-family: sans-serif;
+}
+
+
+p {
+    text-align: center;
+}
+
+  body {
+    /*width: 600px;*/                   /*强制页面宽度*/
+    
+    margin: 0 auto;                 /*设置边距*/
+    background-color: #7FCBFA;    /*背景色*/
+    padding: 0 20px 20px 20px;      /*上,右,下,左 的内边距*/
+    /*border: 5px solid black; */     /*设置边框, 5xp宽, 实线, 黑色*/
+  }
+
+
+  h1 {
+    /* margin: 0;                        自己设置行间距 */
+    text-align: center;   
+    color: rgb(4, 18, 31);
+    text-shadow: 3px 3px 1px rgb(175, 164, 164);   /*设置阴影 x轴,-y轴,模糊距离,色儿*/
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
